@@ -1,0 +1,88 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #85C1E9;
+  font-family: 'Oxygen', sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #C0C0C0;
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-brand {
+  padding-top: 25px;
+  padding-bottom: 40px;
+}
+.navbar-brand h1 { /* Company name */
+  font-family: 'Lora', serif;
+  color: #000080;
+  font-size: 1.5em;
+/*  text-transform: uppercase;*/  
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+
+
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+.navbar-toggle {
+    margin-top: 16px;
+}
+
+#nav-list {
+  margin-top: 0px;
+}
+#nav-list a {
+  color: #F4F6F7;
+  text-align: center;
+}
+
+#nav-list li hr {
+  width: 98%;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+
+#home-title  {
+   font-size: 1.8;
+   margin-top: 20px;
+   margin-bottom: 20px;
+}
+
+#chicken-tile , #beef-tile , #sushi-tile  {
+  width: 100%;
+  color: darkblue;
+  background-color: pink;
+  padding-bottom: 1%;
+}
+
+#home-tiles p {
+   background-color: pink;
+   padding-right: 2%;
+   padding-left: 2%;
+}
+
+
+#chicken-tile span, #beef-tile span, #sushi-tile span {
+  width: 100%;
+  text-align: center;
+  font-size: 1.6em;
+  color: darkblue;
+  opacity: .8;
+}
